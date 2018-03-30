@@ -1,4 +1,7 @@
+/* Start of html code  */
+
 body {
+  font-size: 20px;
   background-color: #ff0000;
   color: #0000FF;
 }
@@ -11,6 +14,7 @@ nav {
 }
 
 .logo {
+  background: url(images/bloc-logo.png) no-repeat top center;
   margin: 20px;
   width: 100px;
 }
@@ -20,7 +24,9 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+	background: url(images/instagram-pic.jpg) no-repeat top center;
+	float: center;
+	width: 70%;
 }
 
 .left, .right {
@@ -38,8 +44,50 @@ ul {
 }
 
 li {
-  float: right;
+	color: #FFFFFF;
+	float: right;
+  font-size: 100%;
   padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover { color:#0070BC; } /* mouse over */
+
+
+figcaption {
+	color: #000000;
+	float: center;
+  font-size: 70%;
+  padding: 10px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 100%;
+	float: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	color: #000000;
+	font-size: 90%;
+}
+
+.author {
+	color: #FFFFFF;
+	padding-top: 5%;
+	font-size: 90%;
+}
+
+.story-text p {
+	background-color:#F18260;
+	color: #FFFFFF;
+	font-size: 80%;
+	line-height: 200%;
 }
 
 article {
